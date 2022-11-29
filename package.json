@@ -1,0 +1,22 @@
+{
+  "name": "totally-unique-team-generator",
+  "version": "1.0.0",
+  "description": "team generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaynam1977/totally-unique-team-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaynam1977/totally-unique-team-generator/issues"
+  },
+  "homepage": "https://github.com/Shaynam1977/totally-unique-team-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
