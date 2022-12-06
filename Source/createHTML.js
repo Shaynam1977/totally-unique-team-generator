@@ -18,20 +18,27 @@ function createManager(employee){
 }
 function createEngineer(employee){
     return `
-    <h3>${employee.getrole()}</h3>
-    <h3>${employee.getgithub()}</h3>
-    <h3>${employee.getname()}</h3>
-    <h3>${employee.getid()}</h3>
-    <h3>${employee.getemail()}</h3>
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">${employee.getrole()}</h5>
+      <p class="card-text">Employee Name: ${employee.getname()}</p>
+      <p class="card-text">Employee Github: ${employee.getgithub()}</p>
+      <p class="card-text">Employee ID: ${employee.getid()}</p>
+      <a href="#" class="btn btn-primary">${employee.getemail()}</a>
+    </div>
+  </div>
     `
 }
 function createIntern(employee){
-    return `
-    <h3>${employee.getrole()}</h3>
-    <h3>${employee.getschool()}</h3>
-    <h3>${employee.getname()}</h3>
-    <h3>${employee.getid()}</h3>
-    <h3>${employee.getemail()}</h3>
+    return ` <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">${employee.getrole()}</h5>
+      <p class="card-text">Employee Name: ${employee.getname()}</p>
+      <p class="card-text">Employee School: ${employee.getschool()}</p>
+      <p class="card-text">Employee ID: ${employee.getid()}</p>
+      <a href="#" class="btn btn-primary">${employee.getemail()}</a>
+    </div>
+  </div>
     `
 }
 //crearte engineer and Intern functions to be like create manager ^
